@@ -8,7 +8,7 @@ import cors from "cors";
 import { errorMiddleware } from "./middlewares/error.js";
 import cookieParser from "cookie-parser";
 import fileUpload from "express-fileupload";
-import morgan from "morgan";
+// import morgan from "morgan";
 
 const app = express();
 config({ path: "./config/config.env" });

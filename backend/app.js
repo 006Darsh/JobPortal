@@ -13,7 +13,7 @@ import morgan from "morgan";
 const app = express();
 config({ path: "./config/config.env" });
 
-app.use(morgan("dev"));
+// app.use(morgan("dev"));
 
 app.use(
   cors({

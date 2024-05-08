@@ -14,7 +14,7 @@ const Home = () => {
   }
   return (
     <>
-      <section className="homePage page">
+      <section className="homePage page" style={{padding: "0 0px"}}>
         <HeroSection />
         <HowItWorks />
         <PopularCategories />
